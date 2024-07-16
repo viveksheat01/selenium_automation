@@ -34,7 +34,7 @@ public class LoginPage {
 
 		String title = eleUtil.waitForTitleToBe(Appcontants.LOGIN_PAGE_TITLE, Timeutil.DEFAULT_TIME);
 
-		System.out.println("login page Title==== " + title);
+		System.out.println("login page Title========= " + title);
 		return title;
 	}
 
