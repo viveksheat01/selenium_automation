@@ -13,6 +13,7 @@ import com.qa.opencart.factory.DriverFactory;
 import com.qa.opencart.pages.AccountPage;
 import com.qa.opencart.pages.LoginPage;
 import com.qa.opencart.pages.ProductInfoPage;
+import com.qa.opencart.pages.RegisterationPage;
 import com.qa.opencart.pages.SearchResultsPage;
 import com.qa.opencart.tests.SearchPageTest;
 
@@ -26,6 +27,8 @@ public class BaseTest {
 	protected SearchResultsPage searchResultsPage;
 	protected ProductInfoPage productInfoPage;
 	protected SoftAssert softAssert;
+	protected RegisterationPage regpage;
+
 
 	@Parameters({ "browser" })
 	@BeforeTest

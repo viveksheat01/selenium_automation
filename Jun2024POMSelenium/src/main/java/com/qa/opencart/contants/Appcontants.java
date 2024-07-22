@@ -15,6 +15,7 @@ public class Appcontants {
 	
 	public static final List<String> ACC_PAGE_HEADERS_LIST=
 			Arrays.asList("My Account", "My Orders", "My Affiliate Account", "Newsletter");
+	public static final CharSequence USER_REGISTER_SUCCESS_MESSG = "Register Account";
 	
 	
 

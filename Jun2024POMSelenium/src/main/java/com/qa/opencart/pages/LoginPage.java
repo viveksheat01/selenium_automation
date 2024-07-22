@@ -6,7 +6,7 @@ import org.openqa.selenium.WebDriver;
 
 import com.qa.opencart.contants.Appcontants;
 import com.qa.opencart.utils.ElementUtil;
-import com.qa.opencart.utils.Timeutil;
+import com.qa.opencart.utils.Timeutil;import dev.failsafe.Timeout;
 
 public class LoginPage {
 	private WebDriver driver;
@@ -19,6 +19,8 @@ public class LoginPage {
 	private By password = By.id("input-password");
 	private By loginBtn = By.xpath("//input[@value='Login']");
 	private By forgotPwdLink = By.linkText("Forgotten Password");
+	private By registerLink = By.linkText("Register");
+
 
 	// 2. public const.... of the page
 
@@ -62,4 +64,13 @@ public class LoginPage {
 
 	}
 
+	public RegisterationPage navigateToRegisterPage()
+	{
+		eleUtil.doClick(registerLink,Timeutil.DEFAULT_TIME);
+		return new RegisterationPage(driver);
+	}
+	
+	
+	
+	
 }

@@ -17,6 +17,7 @@ public class AppErrors {
 	public static final String AVAILABILITY_NOT_FOUND = "=========AVAILABILITY NOT FOUND======";
 	public static final String PRICE_NOT_FOUND = "===========PRICE NOT FOUND===========";
 	public static final String EX_TAX_PRICE_NOT_FOUND = "=========EX TAX_PRICE NOT FOUND=========";
+	public static final String REGISTER_NOT_DONE = "===========USER REGISTER NOT DONE=========";
 
 
 
